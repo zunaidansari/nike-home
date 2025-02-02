@@ -14,13 +14,13 @@ const Home = () => {
         <div className="shopping">
           <p>Also Available On</p>
           <div className="brand-icons">
-            <img src="/images/amazon.png" alt="amazon-logo"></img>
-            <img src="/images/flipkart.png" alt="flipkart-logo"></img>
+            <img src="`${import.meta.env.BASE_URL}images/amazon.png" alt="amazon-logo"></img>
+            <img src="`${import.meta.env.BASE_URL}images/flipkart.png" alt="flipkart-logo"></img>
           </div>
         </div>
       </div>
       <div className="shoe-image">
-        <img src="/images/shoe-image.png" alt="shoe-image"></img>
+        <img src="`${import.meta.env.BASE_URL}images/shoe-image.png" alt="shoe-image"></img>
       </div>
     </main>
   );
